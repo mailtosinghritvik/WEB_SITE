@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start a conversation — AgentOrgs</title>
+  <meta name="description" content="Tell AgentOrgs how the work runs today. A working session in Toronto, or remote, is the first step.">
+  <meta name="theme-color" content="#f0ece1">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="" width="46" height="42">
+        <span class="word"><span class="agent">Agent</span><span class="orgs">Orgs</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="platform.html">Platform</a>
+        <a href="agents.html">Agents</a>
+        <a href="approach.html">Approach</a>
+        <a href="index.html#work">Work</a>
+        <a class="btn btn-navy nav-cta" href="contact.html" aria-current="page">Start a conversation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container">
+      <p class="kicker">Contact</p>
+      <h1>Tell us how the work runs today.</h1>
+      <hr class="title-rule">
+      <p class="lead">A working session with the people who run the jobs, the office and the numbers. You leave with a short plan for what goes in first. We will sign an NDA before any data changes hands.</p>
+    </section>
+
+    <section class="container form-layout">
+      <div>
+        <div class="next-steps">
+          <article>
+            <span class="ico ico-terra" aria-hidden="true">1</span>
+            <div>
+              <strong>Understand</strong>
+              <p>We map how a job moves today, including the spreadsheet in the middle.</p>
+            </div>
+          </article>
+          <article>
+            <span class="ico ico-navy" aria-hidden="true">2</span>
+            <div>
+              <strong>Plan</strong>
+              <p>What goes in first, which systems connect, and what data comes across.</p>
+            </div>
+          </article>
+          <article>
+            <span class="ico ico-green" aria-hidden="true">3</span>
+            <div>
+              <strong>Configure</strong>
+              <p>The platform set up to your stages, forms and rates. Nothing ripped out on day one.</p>
+            </div>
+          </article>
+        </div>
+        <p class="note" style="margin-top:22px">AgentOrgs Inc. · Toronto, Ontario</p>
+        <p class="note"><a href="mailto:info@agentorgs.com">info@agentorgs.com</a></p>
+      </div>
+      <form class="enquiry" action="mailto:info@agentorgs.com" method="post" enctype="text/plain">
+        <div id="form-banner" class="banner" hidden></div>
+        <div class="form-row">
+          <label class="field">
+            <span>Name</span>
+            <input name="name" autocomplete="name" required maxlength="120">
+          </label>
+          <label class="field">
+            <span>Company</span>
+            <input name="company" autocomplete="organization" required maxlength="160">
+          </label>
+        </div>
+        <div class="form-row">
+          <label class="field">
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required maxlength="160">
+          </label>
+          <label class="field">
+            <span>Phone <span style="font-weight:500;color:#8a8478">(optional)</span></span>
+            <input name="phone" type="tel" autocomplete="tel" maxlength="40">
+          </label>
+        </div>
+        <label class="field">
+          <span>How does a job move today?</span>
+          <textarea name="message" required maxlength="4000" placeholder="Accounting, estimating, the inbox, a whiteboard, a shared drive…"></textarea>
+        </label>
+        <div class="honeypot" aria-hidden="true">
+          <label>Company website <input name="company_website" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <button class="btn btn-navy" type="submit">Send the note</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="" width="46" height="42">
+          <span class="word"><span class="agent">Agent</span><span class="orgs">Orgs</span></span>
+        </a>
+        <p>Agent-driven analytics for SMEs.</p>
+        <p>Toronto, Ontario</p>
+      </div>
+      <div class="footer-links">
+        <a href="platform.html">Platform</a>
+        <a href="agents.html">Agents &amp; analytics</a>
+        <a href="approach.html">How we work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p>Entered once, used everywhere.</p>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span class="footer-mark"><img src="assets/dog.png" alt="" width="48" height="44">© <span id="year">2026</span> AgentOrgs Inc.</span>
+      <span>Toronto · Ontario · Canada</span>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
