@@ -913,6 +913,61 @@ h3 { font-size: 22px; line-height: 1.25; }
 .footer-links a { text-decoration: none; font-weight: 600; font-size: 14px; color: var(--navy); }
 .footer-links a:hover { color: var(--terra-deep); }
 
+.notice {
+  max-width: 760px;
+  padding-bottom: 80px;
+}
+
+.notice h2 {
+  font-size: clamp(26px, 3vw, 32px);
+  margin-top: 40px;
+}
+
+.notice h2:first-child { margin-top: 8px; }
+
+.notice p,
+.notice li { color: var(--muted); }
+
+.notice p { margin-top: 12px; }
+
+.notice ul { margin: 12px 0 0; padding-left: 18px; }
+
+.notice li + li { margin-top: 6px; }
+
+.notice a { color: var(--terra-deep); font-weight: 600; }
+
+.notice table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 14.5px;
+}
+
+@media (max-width: 700px) {
+  .notice table { display: block; overflow-x: auto; }
+  .notice td:first-child { width: auto; }
+}
+
+.notice th,
+.notice td {
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.notice th {
+  color: var(--navy);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.notice td { color: var(--muted); }
+
+.notice td:first-child { color: var(--navy); font-weight: 600; width: 42%; }
+
 .footer-base {
   display: flex;
   justify-content: space-between;
