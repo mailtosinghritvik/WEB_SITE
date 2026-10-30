@@ -2,7 +2,7 @@
 
 Last updated: 30 October 2026
 
-AgentOrgs Inc. builds operating software and AI agents for a business, then runs that work with them. We are in Toronto, Ontario. Write to info@agentorgs.com.
+AgentOrgs Inc. builds operating software and AI agents for a business, then runs that work with them. We are in Toronto, Ontario. Privacy questions go to privacy@agentorgs.com.
 
 ## This website
 
@@ -24,6 +24,6 @@ We do not sell personal information. We do not buy contact lists. We do not take
 
 ## Asking us
 
-Email info@agentorgs.com to see what we hold about you, to correct it, or to ask us to delete it. In Canada you can also contact the Office of the Privacy Commissioner at priv.gc.ca.
+Email privacy@agentorgs.com to see what we hold about you, to correct it, or to ask us to delete it. In Canada you can also contact the Office of the Privacy Commissioner at priv.gc.ca.
 
 If this notice changes, the new version will be on this page, with a new date.
